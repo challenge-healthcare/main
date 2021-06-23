@@ -1,0 +1,226 @@
+Alpha 0, wenn alles linear ist oder wenn die kopplung nicht zu gross ist.
+
+Bei [0-10000,10001-39000, 39000+]
+
+Logarithmus von charges wurde zurückgerechnet für die predictions
+Tested with the best decision tree model with acc: .96, macro avg: .88
+
+Nur log(charges) ohne PCA, ohne standardisierung der Daten
+mean absolute error third level:  3175.3920276797508
+mean absolute error second level:  1746.2891672750095
+mean absolute error first level:  742.545004987019
+
+r2 third level:  nan (only 1 value for the score so it gives out nan)
+r2 second level:  0.87070579835627
+r2 first level:  0.8063345682688046
+
+alpah1: 0
+alpha2: 0
+alpha3: 0
+
+Nur log(charges) MIT PCA, ohne standardisierung der Daten
+mean absolute error third level:  3178.885069781085
+mean absolute error second level:  1781.1535549929097
+mean absolute error first level:  697.1011053581641
+
+r2 third level:  nan (only 1 value for the score so it gives out nan)
+r2 second level:  0.864503214009865
+r2 first level:  0.8248593497029273
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+Nur log(charges) ohne Geschlecht im PCA, ohne standardisierung der Daten
+mean absolute error third level:  3175.3920276797508
+mean absolute error second level:  1723.605108184842
+mean absolute error first level:  740.3871752022502
+
+r2 third level:  nan (only 1 value for the score so it gives out nan)
+r2 second level:  0.8757786602072883
+r2 first level:  0.8028967705512533
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+Log von BMI, PBF, CHARGES MIT PCA ohne Geschlecht, ohne standardisierung der Daten
+mean absolute error third level:  1357.1941436896304
+mean absolute error second level:  1583.19067174484
+mean absolute error first level:  782.491769746012
+
+r2 third level:  nan (only 1 value for the score so it gives out nan)
+r2 second level:  0.894436075463064
+r2 first level:  0.7818630784773031
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+Mit Log von BMI, PBF, MIT PCA von Geschlecht BMI, PBF, ohne standardisierung
+mean absolute error third level:  4302.435986479679
+mean absolute error second level:  1587.2566705924758
+mean absolute error first level:  770.3938323164456
+
+r2 third level:  nan (only 1 value for the score so it gives out nan)
+r2 second level:  0.894709428440331
+r2 first level:  0.7902957840622924
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+---------------------------------------------------------------------------------------------------------------
+
+Bei [0-10000,10001-35000, 35000+]
+
+Logarithmus von charges wurde zurückgerechnet für die predictions
+Tested with the best decision tree model with acc: .96, macro avg: .88
+
+Nur log(charges) ohne PCA, ohne standardisierung der Daten
+mean absolute error third level:  2431.094649476341
+mean absolute error second level:  1523.4127491574873
+mean absolute error first level:  774.7332004205614
+
+r2 third level:  -3.4064698112334177
+r2 second level:  0.8405242025676603
+r2 first level:  0.7905771897227801
+
+alpah1: 0
+alpha2: 0
+alpha3: 0
+
+Nur log(charges) MIT PCA, ohne standardisierung der Daten
+mean absolute error third level:  2376.45820710607
+mean absolute error second level:  1527.9992617132318
+mean absolute error first level:  729.5070907625309
+
+r2 third level:  -3.340204504249347
+r2 second level:  0.8415319015148418
+r2 first level:  0.8117766629307264
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+Nur log(charges) ohne Geschlecht im PCA, ohne standardisierung der Daten
+mean absolute error third level:  2431.094649476295
+mean absolute error second level:  1523.4127491574834
+mean absolute error first level:  774.7332004205614
+
+r2 third level:  -3.4064698112332605
+r2 second level:  0.8405242025676616
+r2 first level:  0.7905771897227801
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+Log von BMI, PBF, CHARGES MIT PCA ohne Geschlecht, ohne standardisierung der Daten
+mean absolute error third level:  2365.799991059197
+mean absolute error second level:  1359.447546268948
+mean absolute error first level:  822.4398427955884
+
+r2 third level:  -3.3084271075343983
+r2 second level:  0.8635114872252538
+r2 first level:  0.7666241075316654
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+Mit Log von BMI, PBF, MIT PCA von Geschlecht BMI, PBF, ohne standardisierung
+mean absolute error third level:  2313.8637751452916
+mean absolute error second level:  1371.0180916055879
+mean absolute error first level:  810.0637533959142
+
+r2 third level:  -3.6264395607063653
+r2 second level:  0.8597642454166023
+r2 first level:  0.7755272536755714
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+---------------------------------------------------------------------------------------------------------------
+
+Bei [0-10000, 10001-30000, 30000+]
+
+Logarithmus von charges wurde zurückgerechnet für die predictions
+Tested with the best decision tree model with acc: .96, macro avg: .88
+
+Nur log(charges) ohne PCA, ohne standardisierung der Daten
+mean absolute error third level:  1821.3566909298436
+mean absolute error second level:  1553.174635291043
+mean absolute error first level:  751.7933050376117
+
+r2 third level:  -1.258075475025195
+r2 second level:  0.8288634117355554
+r2 first level:  0.8180786400428628
+
+alpah1: 0
+alpha2: 0
+alpha3: 0
+
+Nur log(charges) MIT PCA, ohne standardisierung der Daten
+mean absolute error third level:  1906.3337268781495
+mean absolute error second level:  1561.1442148506287
+mean absolute error first level:  704.9811275150959
+
+r2 third level:  -1.2462179113126752
+r2 second level:  0.8281662085237218
+r2 first level:  0.8136213800954787
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+Nur log(charges) ohne Geschlecht im PCA, ohne standardisierung der Daten
+mean absolute error third level:  1821.3566909298436
+mean absolute error second level:  1553.1746352910413
+mean absolute error first level:  751.793305037612
+
+r2 third level:  -1.2580754750252163
+r2 second level:  0.8288634117355554
+r2 first level:  0.8180786400428632
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+Log von BMI, PBF, CHARGES MIT PCA ohne Geschlecht, ohne standardisierung der Daten
+mean absolute error third level:  1758.5753022448723
+mean absolute error second level:  1406.3582495209348
+mean absolute error first level:  805.1551375757931
+
+r2 third level:  -1.1741585550207136
+r2 second level:  0.8538072109445972
+r2 first level:  0.786988649634597
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+Mit Log von BMI, PBF, MIT PCA von Geschlecht ohne standardisierung
+mean absolute error third level:  1547.701189755234
+mean absolute error second level:  1417.0417912213468
+mean absolute error first level:  794.6968120611341
+
+r2 third level:  -0.8034270101801269
+r2 second level:  0.8511264418894038
+r2 first level:  0.7924232183471435
+
+alpha1: 0
+alpha2: 0
+alpha3: 0
+
+model persimony rule kein ccp_alpha aber 
+ccp_alphas
+0.0018768768768768769
+0.0008580008580008582
+0.0016683350016683351
+0.0016683350016683351
+
+
+
+
